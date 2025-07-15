@@ -1,0 +1,40 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:appControl}",
+      "name": "Debug appControl",
+      "program": "${workspaceFolder:appControl}/.build/debug/appControl",
+      "preLaunchTask": "swift: Build Debug appControl"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:appControl}",
+      "name": "Release appControl",
+      "program": "${workspaceFolder:appControl}/.build/release/appControl",
+      "preLaunchTask": "swift: Build Release appControl"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:appControl}",
+      "name": "Debug quickswitch",
+      "program": "${workspaceFolder:appControl}/.build/debug/quickswitch",
+      "preLaunchTask": "swift: Build Debug quickswitch"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:appControl}",
+      "name": "Release quickswitch",
+      "program": "${workspaceFolder:appControl}/.build/release/quickswitch",
+      "preLaunchTask": "swift: Build Release quickswitch"
+    }
+  ]
+}
