@@ -38,6 +38,7 @@ CMD Switch is a macOS utility that enhances your workflow by allowing you to ass
 ## Building from Source
 
 ### Prerequisites
+
 - Xcode 14.0 or later
 - Swift 5.7 or later
 - macOS 12.0 or later
@@ -45,17 +46,20 @@ CMD Switch is a macOS utility that enhances your workflow by allowing you to ass
 ### Build Steps
 
 1. Clone the repository:
+
 ```bash
-git clone https://github.com/yourusername/cmdSwitch.git
+git clone https://github.com/raf-guim/cmdSwitch.git
 cd cmdSwitch
 ```
 
 2. Build the project:
+
 ```bash
 swift build
 ```
 
 3. Create the application bundle:
+
 ```bash
 ./build_app.sh
 ```
@@ -65,6 +69,7 @@ swift build
 ## Permissions
 
 CMD Switch needs the following permissions to function:
+
 - Accessibility permissions (to monitor keyboard events)
 - Launch at login (optional, if you enable this feature)
 
@@ -73,6 +78,7 @@ When you first run the app, macOS will prompt you to grant these permissions.
 ## Troubleshooting
 
 1. If keyboard shortcuts don't work:
+
    - Check System Preferences > Security & Privacy > Privacy > Accessibility
    - Make sure CMD Switch is allowed to control your computer
 
